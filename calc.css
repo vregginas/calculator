@@ -1,0 +1,69 @@
+body{display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #73877B;
+     min-height: 90vh;}
+.container{display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           width:300px;
+           padding: 25px 35px;
+           height: auto;
+           background-color: #201E1F;
+           border-radius: 3px;
+           user-select: none;}     
+#disp{
+    width:100%;
+    margin:3vh 0;
+    background-color: #C6C013;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, minmax(40px, auto));
+    border-radius: 10px;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+#disp .dispscr{
+    text-align: right;
+    height:8vh;
+    color: #201E1F;
+    font-size: xx-large;
+    line-height: 2;
+    word-wrap: break-word;
+    font-family: 'Source Code Pro', monospace;
+
+}
+#disp .ansscr{
+    text-align: right;
+    color: #201E1F;
+    height:8vh;
+    line-height: 3;
+    font-size: larger;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.pad{
+    display: grid;
+    grid: repeat(5, 70px) / repeat(4, 70px);
+    grid-template-columns: repeat(4,70px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    
+    
+}
+#equals{width:230%}
+button{
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    background-color: #201E1F;
+    color:#3066BE;
+    font-size: xx-large;
+    font-family: 'Source Code Pro', monospace;
+}
+button:hover{
+    border: solid 2px #3066BE;
+}
