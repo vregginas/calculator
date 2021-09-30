@@ -31,9 +31,9 @@ buttons.forEach((btn)=>{
         ansScr.className="dispscr";
         ansScr.style.color="#3066BE";
     }
-    if(typeof eval(now.join(""))==undefined){
+    if(typeof eval(now.join(""))=="undefined"){
         ansScr.innerHTML=0;
-        currIn.innerHTML=0;
+        
     }
     })
 })
